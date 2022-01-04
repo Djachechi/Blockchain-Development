@@ -50,7 +50,7 @@ The testnet is setup in order to avoid risk as there is no real money involved a
    * You should see the transaction go from Pending to Successful in around the same blocktime you set in the genesis.
    * Now  click the Check TX Status button to update the status.
 
-## 'Felicitation' you have successfully sent a transaction on your private Blockchain
+### 'Felicitation' you have successfully sent a transaction on your private Blockchain
 
 
 
