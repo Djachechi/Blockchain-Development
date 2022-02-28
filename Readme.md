@@ -22,8 +22,11 @@ The testnet is setup in order to avoid risk as there is no real money involved a
   * Then paste thesame addresses in the list of accounts to prefund. And because they are no blowck rewards in POA, you'll need to pre-fund.
   * Complete the rest of the prompts (hitting enter). Once back at the main menu choose the " Manage existing Genesis" option.
   * To finalize generating your block genesis, export configurations. This will faill to create two of the files, but only one is needed "smbank.json".
+
+
 ![Genesis Block node1](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Genesis%20Block%20Node1.PNG)
 ![Genesis Block node2](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Genesis%20Block%20Node2.PNG)
+
 
 3. After completing the genesis block creation, we will initialize the nodes with the genesis' json file (smbank).
 
