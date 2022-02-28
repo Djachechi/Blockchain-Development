@@ -1,6 +1,6 @@
 # Proof of Authority Bloockchain
 
-For this chain, pretending to be a new developer at a small bank called smbank you were assigned a mission to set up a private testnet blockchain. 
+For this chain, pretending to be a new developer at a small bank called smbank you were assigned a mission to set up a private testnet blockchain. I briefly share steps on setting up you can set up your private blockchain.
 
 The testnet is setup in order to avoid risk as there is no real money involved and it allows for offline development using;
  * Puppeth, to generate your genesis block.
@@ -22,6 +22,8 @@ The testnet is setup in order to avoid risk as there is no real money involved a
   * Then paste thesame addresses in the list of accounts to prefund. And because they are no blowck rewards in POA, you'll need to pre-fund.
   * Complete the rest of the prompts (hitting enter). Once back at the main menu choose the " Manage existing Genesis" option.
   * To finalize generating your block genesis, export configurations. This will faill to create two of the files, but only one is needed "smbank.json".
+![Genesis Block node1](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Genesis%20Block%20Node1.PNG)
+![Genesis Block node2](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Genesis%20Block%20Node2.PNG)
 
 3. After completing the genesis block creation, we will initialize the nodes with the genesis' json file (smbank).
 
@@ -29,8 +31,11 @@ The testnet is setup in order to avoid risk as there is no real money involved a
   * Nodes should be run in different terminal windows with the commands.
   
   **NOTE:** Type your password and hit enter even if you can not see it visually.
-
+  
 5. Your private PoA blockchain should now be running.
+
+![Running node1](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Running%20Node1.PNG)
+![Running node2](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Running%20Node2.PNG)
 
 6. Now that both nodes are up and running , the blockchain can be added to MyCrypto for testing.
    * Open Mycrypto app, then navigate to the "change network option" at the bottom left.
@@ -41,6 +46,8 @@ The testnet is setup in order to avoid risk as there is no real money involved a
    * In the URL box type: http://127.0.0.1:8545.  This points to the default RPC port on your local machine.
    * Finally, click Save & Use Custom Node.
 
+![Custom node](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Setting%20up%20custom%20node.PNG)
+
 7. After connecting to the custom network in MyCrypto, it can be tested by sending money between accounts.
    * Select the View & Send option from the left menu pane, then click Keystore file.
    * On the next screen, click Select Wallet File, then navigate to the keystore directory inside your Node1 directory, select the file located there, provide your password when prompted and then click Unlock.
@@ -49,6 +56,8 @@ The testnet is setup in order to avoid risk as there is no real money involved a
    * Click the Check TX Status when the green message pops up, confirm the logout.
    * You should see the transaction go from Pending to Successful in around the same blocktime you set in the genesis.
    * Now  click the Check TX Status button to update the status.
+
+![transaction confirmation](https://github.com/Djachechi/Blockchain-Development/blob/main/Screenshots/Sending%20150%20to%20Node2.PNG)
 
 ### 'Felicitation' you have successfully sent a transaction on your private Blockchain
 
